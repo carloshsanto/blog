@@ -1,0 +1,48 @@
+criar projeto
+npx create-react-app nomeprojeto
+
+instalar pacotes para o projeto
+npm install json-server react-icons uuid
+
+
+https://create-react-app.dev/
+
+https://react-bootstrap.github.io/
+
+https://reactrouter.com/
+
+limpar arquivos desnecessarios 
+setupTests.js, reportWebVitals.js, logo.svg, App.test.js, App.css
+
+remover importaçoes arquivo app.js e index.js
+
+remover conteudo index.css
+
+ajustar index.html incluir font 
+
+criar pastas assets img
+
+subistituir favicon
+
+
+Estruturando o projeto
+
+importar router app.js
+
+6:19 / 15:38
+
+Curso React: Estruturando o projeto - #18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
