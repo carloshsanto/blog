@@ -21,7 +21,8 @@ const NavBarApp = () => {
                             <Nav.Link as={Link} to="/" >Home</Nav.Link>
                             <Nav.Link as={Link} to="/Blog" >Blog</Nav.Link>
                             <Nav.Link as={Link} to="/About" >Sobre</Nav.Link>
-                            <Nav.Link as={Link} to="/Contact" >Contato</Nav.Link>                            
+                            <Nav.Link as={Link} to="/Contact" >Contato</Nav.Link> 
+                            <Nav.Link as={Link} to="/Login" >Login</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

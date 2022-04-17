@@ -9,6 +9,7 @@ import Blog from './Pages/Blog/Blog'
 import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import NavBarApp from './Layouts/Navbar/Navbar';
+import Login from './Pages/Login/Login'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                 <Route path='Blog' element={<Blog /> } />
                 <Route path='About' element={<About /> } />                
                 <Route path='Contact' element={<Contact /> } />
+                <Route path='Login' element={<Login /> } />
 
                 <Route path='*' element={ <Navigate replace to="/"/> } />
             </Route>
