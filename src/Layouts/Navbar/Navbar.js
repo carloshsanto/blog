@@ -9,11 +9,11 @@ const NavBarApp = () => {
                 <Container>
                     <Navbar.Brand as={Link} to="/" ><img
                         alt=""
-                        //src="/Assets/Img/logo.png"
-                       // width="30"
-                       // height="30"
+                        src="../Img/logo.png"
+                       width="100"
+                       height="50"
                         className="d-inline-block align-top"
-                    />{' '}LCS Blog
+                    />{' '}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
