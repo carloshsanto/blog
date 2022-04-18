@@ -1,17 +1,17 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { Outlet, Link } from "react-router-dom"
 
-
 const NavBarApp = () => {
     return (
         <>
-            < Navbar className="navBg" bg="light" expand="lg" >
+       
+       < Navbar className="navBg" bg="light" expand="lg" >
                 <Container>
                     <Navbar.Brand as={Link} to="/" ><img
                         alt=""
                         src="../Img/logo.png"
                        width="100"
-                       height="50"
+                       height="40"
                         className="d-inline-block align-top"
                     />{' '}
                     </Navbar.Brand>
