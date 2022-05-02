@@ -34,7 +34,7 @@ const Login= () => {
                                         <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
                                         </div>
                                         
-                                        <div class="text-center d-flex justify-content-between mt-4"><p>Code by <a href="" class="font-italic text-muted"> 
+                                        <div class="text-center d-flex justify-content-between mt-4"><p>Code by <a href="{{}}" class="font-italic text-muted"> 
                                                 <u>Jassa</u></a></p></div>
                                     </form>
                                 </div>
