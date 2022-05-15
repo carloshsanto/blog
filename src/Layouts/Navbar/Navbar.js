@@ -4,6 +4,7 @@ import { Outlet, Link } from "react-router-dom"
 const NavBarApp = () => {
     return (
         <>
+		
             < Navbar className="navBg" bg="dark" variant="dark" expand="lg" >
                 <Container>
                     <Navbar.Brand as={Link} to="/" >
@@ -13,7 +14,7 @@ const NavBarApp = () => {
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
-                        />{' '}
+                        />{' '} 
                         Blog React
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="container-fluid" />
